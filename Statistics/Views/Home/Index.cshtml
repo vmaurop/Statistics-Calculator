@@ -1,0 +1,60 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Mathematics</title>
+    <meta charset="utf-8" />
+    <script src="~/scripts/Math.js"></script>
+
+
+
+    <link rel="stylesheet" href="~/Style/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+    <p><center><b><font face="Times New Roman" size="8" color="red">ΣΤΑΤΙΣΤΙΚΗ</center></font></b></p>
+    <br>
+    <br>
+
+    <center>
+        <div class="mypanel">
+            <p>Βασικά Στοιχεία Στατιστικής</p>
+            <form name="statistics" id="myStat">
+                <textarea id="data" rows="5" cols="30" placeholder="Εισαγωγή δεδομένων χωρισμένων με κομμα(π.χ. 1,2,3,4)"></textarea>
+
+
+                <br>
+                <br>
+                <button type="button" onclick="Statistics()">Calculate</button>   <input type="reset">
+
+                <br>
+                <br>
+            </form>
+            <p>Λύση</p>
+            <br>
+
+
+            <p id="max">  <br>
+            <p id="min">  <br>
+            <p id="count">  <br>
+            <p id="sum">  <br>
+            <p id="average"><br>
+            <p id="median"> <br>
+            <p id="variance"> <br>
+            <p id="standard_deviation">
+
+
+
+                <br>
+
+        </div>
+    </center>
+ 
+</body>
+</html>
