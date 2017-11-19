@@ -1,5 +1,8 @@
 # Statistics-Calculator
-Web application for  basic Statistics Calculator
+
+
+                                          Web application for  basic Statistics Calculator
+
 IDE:Microsoft Visual Studio Enterprise 2015
 Framework:ASP.NET MVC(Model-View-Controller )
 front end:JavaScript,HTML,CSS
